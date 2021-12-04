@@ -1,13 +1,11 @@
 import React from "react";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import HomeData from "./HomeData/HomeData";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      Este es el home de la página web
-      <Footer />
+      <HomeData />
+      {/* <AttentForm /> */}
     </div>
   );
 };
