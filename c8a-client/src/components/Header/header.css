@@ -1,0 +1,74 @@
+header {
+  background-image: url("../../assets/images/Group\ 4.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-button {
+  background-color: orange;
+  width: auto;
+  padding: 5px;
+  font-family: SharpSansNo1-Bold;
+  font-size: 1rem;
+  color: #ffffff;
+  letter-spacing: 0.93px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.header-text {
+  width: 100%;
+  margin: auto;
+}
+
+h1,
+h2 {
+  transition: all 0.5s;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+h4 {
+  transition: all 0.5s;
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+/* md size */
+@media screen and (min-width: 768px) {
+  header {
+    padding: 40px;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+}
+
+/* lg size */
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 60px;
+  }
+  h1,
+  h2 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+  }
+}
