@@ -1,0 +1,22 @@
+footer {
+  width: 100%;
+  background-color: #f8f9f9;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 9.7%;
+  align-items: center;
+}
+
+.container-red {
+  width: 205px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container-red__img {
+  width: 30px;
+}

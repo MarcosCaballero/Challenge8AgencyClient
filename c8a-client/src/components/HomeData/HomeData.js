@@ -1,13 +1,15 @@
 import React from "react";
 import Banner from "../Banner/Banner";
+import Presentation from "../Presentation/Presentation";
 import "./homeData.css";
 
 const HomeData = () => {
   return (
-    <div className="container-home-data">
+    <section className="container-home-data">
       <Banner />
+      <Presentation />
       <Banner />
-    </div>
+    </section>
   );
 };
 

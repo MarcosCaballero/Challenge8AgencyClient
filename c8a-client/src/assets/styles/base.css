@@ -23,7 +23,8 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  background-color: white;
+  font-family: ProximaNova-Regular;
   width: 100%;
   height: 100vh;
   font-size: 1rem;

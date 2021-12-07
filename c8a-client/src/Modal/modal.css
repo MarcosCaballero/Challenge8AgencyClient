@@ -1,0 +1,54 @@
+.container-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.container-modal__blur {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100%;
+  z-index: 100;
+}
+
+.container-modal__text {
+  transition: all 0.5s;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 40%;
+  padding: 20px;
+  background-color: white;
+  z-index: 200;
+  font-family: SharpSansNo1-Medium;
+  font-size: 1.4rem;
+  color: #021700;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 39px;
+}
+
+.container-modal__button-close {
+  margin-left: 98%;
+  background-image: url("../assets/images/times-solid.svg");
+  background-repeat: no-repeat;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* md size */
+@media screen and (min-width: 768px) {
+  .container-modal__text {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    font-size: 2.8rem;
+    padding: 50px;
+  }
+}
